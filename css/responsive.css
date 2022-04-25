@@ -1,14 +1,15 @@
 /* Media max-height */
 @media screen and (max-height: 670px) {
   .welcome-screen-box .about-me-info {
-    display: none; } 
+    display: compact; 
+  } 
   
   
   }
 
 @media screen and (max-height: 530px) {
   .welcome-screen-box {
-    display: none; } }
+    display: compact; } }
 
 @media screen and (max-height: 400px) {
   .welcome-screen-box .about-me .opacity-box {
