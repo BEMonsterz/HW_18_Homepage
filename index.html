@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit= cover" >
     <title>Home | Bryan Ayllon</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    
 </head>
 <body>
-
+<!-- Loader -->
+<div id="page-preloader"><span class="spinner"></span></div>
+<!-- Loader end -->
 <!-- Header -->
 <header class="header header-home">
     <div class="container">
@@ -24,7 +25,8 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="#projects">My Projects</a></li>
-                        <li><a href="media/resume.pdf" download>Download Resume</a></li>
+                        <li><a href="development.html">Code Work</a></li>
+                        <li><a href="assets/resume.pdf" download>Download Resume</a></li>
                         <li><a href="#" data-toggle="modal" data-target="#contact-me-modal">Contact Me</a></li>
                     </ul>
                 </div>
@@ -51,7 +53,8 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                         <li><a href="#projects">My Projects</a></li>
-                        <li><a href="media/resume.pdf" download>Download Resume</a></li>
+                        <li><a href="development.html">Code Work</a></li>
+                        <li><a href="assets/resume.pdf" download>Download Resume</a></li>
                         <li><a href="#" data-toggle="modal" data-target="#contact-me-modal">Contact Me</a></li>
                 </ul>
             </div>
@@ -88,7 +91,7 @@
                             
                         </div>
                         <div class="first-screen-buttons">
-                            <a class="site-btn btn-theme-white" href="#" data-toggle="modal" data-target="#contact-me-modal">Download Resume</a>
+                            <a class="site-btn btn-theme-white" href="download/Resume.pdf" download data-toggle="modal" data-target="#contact-me-modal">Download Resume</a>
                         </div>
                     </div>
                 </div>
@@ -107,24 +110,10 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="projects-filter">
-                        <ul class="list-inline">
-                            <li class="active" data-filter="*">All Projects</li>
-                            <li data-filter=".mobile-apps">Mobile Apps</li>
-                            <li data-filter=".ux-ui">UX/UI Projects</li>
-                            <li data-filter=".website">Websites</li>
-                            <li data-filter=".commercials">Commercials</li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
+         
             <div class="row projects-wrapper">
                 <div class="col-sm-6 col-xs-12 project-item ux-ui">
-                    <a href="#" class="project">
+                    <a href="exodus.html" class="project">
                             <div class="project-img">
                                 <img src="media/projects/project1.jpg" alt="Exodus - Keep Calm, and Break Time! Exodus allows users to take a break from social media.">
                             </div>
@@ -137,7 +126,7 @@
                         </a>
                 </div>
                 <div class="col-sm-6 col-xs-12 project-item mobile-apps">
-                    <a href="#" class="project">
+                    <a href="talentbook.html" class="project">
                         <div class="project-img">
                             <img src="media/projects/project2.jpg" alt="Talent Book allows for models to booked without the hurtles of traditional booking.">
                         </div>
@@ -149,21 +138,9 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-6 col-xs-12 project-item mobile-apps">
-                    <a href="#" class="project">
-                        <div class="project-img">
-                            <img src="media/projects/project3.jpg" alt="">
-                        </div>
-                        <div class="project-name">
-                            <h5>SentiVision</h5>
-                        </div>
-                        <div class="project-category">
-                            <p>Mobile App</p>
-                        </div>
-                    </a>
-                </div>
+                
                 <div class="col-sm-6 col-xs-12 project-item ux-ui">
-                    <a href="#" class="project">
+                    <a href="usda.html" class="project">
                         <div class="project-img">
                             <img src="media/projects/project4.jpg" alt="">
                         </div>
@@ -176,7 +153,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6 col-xs-12 project-item ux-ui">
-                    <a href="#" class="project">
+                    <a href="discoverygreen.html" class="project">
                         <div class="project-img">
                             <img src="media/projects/project5.jpg" alt="">
                         </div>
@@ -188,34 +165,9 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-6 col-xs-12 project-item mobile-apps">
-                    <a href="#" class="project">
-                        <div class="project-img">
-                            <img src="media/projects/project6.jpg" alt="">
-                        </div>
-                        <div class="project-name">
-                            <h5>Portfolio Book</h5>
-                        </div>
-                        <div class="project-category">
-                            <p>Mobile App</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-xs-12 project-item website">
-                    <a href="#" class="project">
-                        <div class="project-img">
-                            <img src="media/projects/project7.jpg" alt="">
-                        </div>
-                        <div class="project-name">
-                            <h5>Wyze Energy Drinks</h5>
-                        </div>
-                        <div class="project-category">
-                            <p>Website</p>
-                        </div>
-                    </a>
-                </div>
+               
                 <div class="col-sm-6 col-xs-12 project-item ux-ui">
-                    <a href="#" class="project">
+                    <a href="wseries.html" class="project">
                         <div class="project-img">
                             <img src="media/projects/project8.jpg" alt="">
                         </div>
@@ -224,84 +176,6 @@
                         </div>
                         <div class="project-category">
                             <p>UX/UI Project</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-xs-12 project-item mobile-apps">
-                    <a href="#" class="project">
-                        <div class="project-img">
-                            <img src="media/projects/project9.jpg" alt="">
-                        </div>
-                        <div class="project-name">
-                            <h5>IllustrateAPicture</h5>
-                        </div>
-                        <div class="project-category">
-                            <p>Mobile App</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-xs-12 project-item commercials">
-                    <a href="#" class="project">
-                        <div class="project-img">
-                            <img src="media/projects/project10.jpg" alt="">
-                        </div>
-                        <div class="project-name">
-                            <h5>Primal Gym</h5>
-                        </div>
-                        <div class="project-category">
-                            <p>Commercial</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-xs-12 project-item commercials">
-                    <a href="#" class="project">
-                        <div class="project-img">
-                            <img src="media/projects/project12.jpg" alt="">
-                        </div>
-                        <div class="project-name">
-                            <h5>Go Case</h5>
-                        </div>
-                        <div class="project-category">
-                            <p>Commercial</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-xs-12 project-item mobile-apps">
-                    <a href="#" class="project">
-                        <div class="project-img">
-                            <img src="media/projects/project13.jpg" alt="">
-                        </div>
-                        <div class="project-name">
-                            <h5>Drone VI</h5>
-                        </div>
-                        <div class="project-category">
-                            <p>Mobile App</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-xs-12 project-item website">
-                    <a href="#" class="project">
-                        <div class="project-img">
-                            <img src="media/projects/project14.jpg" alt="">
-                        </div>
-                        <div class="project-name">
-                            <h5>Ahuevo Studios</h5>
-                        </div>
-                        <div class="project-category">
-                            <p>Website</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-xs-12 project-item mobile-apps">
-                    <a href="#" class="project">
-                        <div class="project-img">
-                            <img src="media/projects/project15.jpg" alt="">
-                        </div>
-                        <div class="project-name">
-                            <h5>BarCode Designs</h5>
-                        </div>
-                        <div class="project-category">
-                            <p>Design Studio</p>
                         </div>
                     </a>
                 </div>
@@ -516,34 +390,32 @@
 <script src="js/jquery.placeholder.min.js"></script>
 
 <!--Isotope-->
-<script src="extensions/isotope/imagesloaded.pkgd.min.js"></script>
-<script src="extensions/isotope/isotope.pkgd.min.js"></script>
+<script src="assets/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="assets/isotope/isotope.pkgd.min.js"></script>
 
 <!--Gradient-->
-<script src="extensions/gradient/gradient.js"></script>
+<script src="assets/gradient/gradient.js"></script>
 
 <!--Highcharts-->
-<script src="extensions/highcharts/highcharts.js"></script>
-<script src="extensions/highcharts/data.js"></script>
-<script src="extensions/highcharts/exporting.js"></script>
+<script src="assets/highcharts/highcharts.js"></script>
+<script src="assets/highcharts/data.js"></script>
+<script src="assets/highcharts/exporting.js"></script>
 
 <!--jquery.custom-scroll-->
-<script src="extensions/jquery.mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="assets/jquery.mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
 
 <!--social likes-->
-<script src="extensions/social-likes/social-likes.min.js"></script>
+<script src="assets/social-likes/social-likes.min.js"></script>
 
 <!--Smooth Scroll-->
-<script src="extensions/smoothscroll-for-websites/SmoothScroll.js"></script>
+<script src="assets/smoothscroll-for-websites/SmoothScroll.js"></script>
 
 <!--jqBootstrapValidation-->
-<script src="extensions/contact/jqBootstrapValidation.js"></script>
-<script src="extensions/contact/contact_me.js"></script>
+<script src="assets/contact/jqBootstrapValidation.js"></script>
+<script src="assets/contact/contact_me.js"></script>
 
-
-<script src="js/style.js"></script>
-
-
+<!--THEME-->
+<script src="js/theme.js"></script>
     <link rel="stylesheet" type="text/css" href="css/master.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 </html>
