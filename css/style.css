@@ -580,7 +580,27 @@ body {
 }
 
 
+.project14 {
+  height: 100vh;
+  position: relative; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../media/barcodedesigns.jpg");
 
+}
+.project14-box {
+  position: absolute;
+  left: 15px;
+  bottom: 60px;
+  width: 100%;
+  color: #000;
+  margin: auto 0;
+}
+
+.project14 .full-height {
+  height: 100%;
+  /*display: flex;*/
+}
 
 
 
@@ -1099,3 +1119,60 @@ textarea.site-input:hover, textarea.site-input:focus {
 /* footer */
 
 /*# sourceMappingURL=maps/theme.css.map */
+
+/* remove background for mobile */
+
+
+@media screen and (max-width: 991px) {
+  .tb-screen {
+    background-image: url("../media/talentbook.jpg");
+    background-position: center;
+  }
+  .exodus-screen {
+    background-image: none! important;
+ background-color: #FFF3E0;
+  }
+  
+  .project3 {
+    background-image: none! important;
+ background-color: #1D1D1D;
+  }
+  .project4 {
+    background-image: none! important;
+ background-color: #137E61;
+  }
+  .project5 {
+    background-image: none! important;
+ background-color: #63A945;
+  }
+  .project6 {
+    background-image: url("../media/portfolioBookCover.jpg");
+    background-position: center;
+  }
+  .project7 {
+    background-image: none! important;
+ background-color: #DFE9D1;
+  }
+  .project8 {
+    background-image: none! important;
+ background-color: #3E0693;
+  }
+  .project9 {
+background-position: center;
+  }
+  .project10 {
+    background-position: center;
+  }
+  .project11 {
+    background-image: none! important;
+ background-color: #FF740C;
+  }
+
+  .project13 {
+    background-image: none! important;
+ background-color: #FCFCFC;
+  }
+  .project14 {
+    background-position: center;
+  }
+}
